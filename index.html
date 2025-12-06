@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock paper scissors</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="rotate"> Rock paper scissors </h1>
+    </header>
+
+    <main>
+
+        <h2 class="whoWins">Who will win?</h2>
+        <div class="check-container">
+            <input type="checkbox" id="customCheckbox" name="checkbox" value="on">
+            <label for="customCheckbox">Automatic reset after 4 seconds!</label>
+        </div>
+        <div class="container">
+
+            <div class="button-container">
+                <div class="box"> <img class="rock" src="Images/OneRock.png" alt="rock" srcset=""> </div>
+                <div class="box"><img class="paper" src="Images/TwoPaper.png" alt="paper" srcset=""></div>
+                <div class="box"> <img class="scissors" src="Images/ThreeScissors.png" alt="scissors" srcset=""></div>
+            </div>
+
+            <div class="comp-container">
+                <div class="comp-box"><img class="picture" src="" alt="" srcset=""></div>
+            </div>
+
+        </div>
+        <div class="reset-container">
+            <button class="reset hide">
+                <span class="reset-content">New Game</span>
+            </button>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Created by Dule</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
